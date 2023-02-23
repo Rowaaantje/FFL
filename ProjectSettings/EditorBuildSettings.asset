@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorkoutPrograms.unity
     guid: fcb3f310e8eae3c42a47667b8d51ce1d
+  - enabled: 1
+    path: Assets/Scenes/Gyro.unity
+    guid: 4564098d4358d464fbc983269205bfe3
   m_configObjects: {}
