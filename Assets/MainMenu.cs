@@ -7,14 +7,26 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayStappenteller ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Stappenteller");
     }
     public void PlayWorkoutProgramma ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene("WorkoutPrograms");
     }
     public void PlayGyro ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene("Gyro");
+    }
+    public void Play5minuteworkout()
+    {
+        SceneManager.LoadScene("5MinWorkout");
+    }
+    public void Play10minuteworkout()
+    {
+        SceneManager.LoadScene("10MinWorkout");
+    }
+    public void Play15minuteworkout()
+    {
+        SceneManager.LoadScene("15MinWorkout");
     }
 }
