@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public void PlayMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     public void PlayStappenteller ()
     {
         SceneManager.LoadScene("Stappenteller");
