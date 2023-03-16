@@ -26,4 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/15MinWorkout.unity
     guid: 9f93b9c06edcc514ea184ba491c347c3
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 6ebbf83e72114cc43a8305b44e8de783, type: 2}
