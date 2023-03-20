@@ -34,4 +34,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("15MinWorkout");
     }
+    public void PlayUI_ebi()
+    {
+        SceneManager.LoadScene("UI_ebi");
+    }
 }
