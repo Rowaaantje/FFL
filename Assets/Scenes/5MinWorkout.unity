@@ -325,7 +325,7 @@ MonoBehaviour:
   timerText: {fileID: 1149313966}
   currentTime: 300
   countDown: 1
-  hasLimit: 1
+  hasLimit: 0
   timerLimit: 0
 --- !u!4 &860299946
 Transform:
