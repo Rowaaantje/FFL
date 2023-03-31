@@ -5,6 +5,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
+
     [Header("Component")]
     public TextMeshProUGUI timerText;
 
@@ -28,11 +29,10 @@ public class Timer : MonoBehaviour
     void Update()
     {
         currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
-        
+
         if(hasLimit && ((countDown && currentTime <= timerLimit) || (!countDown && currentTime >= timerLimit)))
         {
             currentTime = timerLimit;
-            SetTimerText();
             timerText.color = Color.red;
             enabled = false;
         }
@@ -43,6 +43,11 @@ public class Timer : MonoBehaviour
     private void SetTimerText()
     {
         timerText.text = currentTime.ToString("0.0");
+    }
+
+    public void toggle()
+    {
+        enabled = !enabled; 
     }
 
 }
