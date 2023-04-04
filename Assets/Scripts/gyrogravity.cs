@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class gyroattitude : MonoBehaviour
+public class gyrogravity : MonoBehaviour
 {
     Gyroscope m_Gyro;
     Text input;
@@ -15,9 +15,9 @@ public class gyroattitude : MonoBehaviour
         input = GetComponent<Text>();
     }
 
-    
+
     void Update()
     {
-        input.text = "Gyro attitude" + m_Gyro.attitude;
+        input.text = "Gyro Gravity" + m_Gyro.gravity * 100;
     }
 }
