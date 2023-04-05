@@ -9,6 +9,7 @@ public class stepcounter : MonoBehaviour
     Text input;
     int intCounter = 0;
     float timer = 0;
+    int margin = 27;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class stepcounter : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if ((m_Gyro.userAcceleration.y * 100) > 25 && timer >= 0.5f)
+        if ((m_Gyro.userAcceleration.y * 100) > margin && timer >= 0.5f)
         {
             intCounter++;
             timer = 0;
