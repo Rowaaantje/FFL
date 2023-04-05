@@ -646,8 +646,9 @@ GameObject:
   - component: {fileID: 1944971104}
   - component: {fileID: 1944971106}
   - component: {fileID: 1944971105}
+  - component: {fileID: 1944971107}
   m_Layer: 5
-  m_Name: GyroEnabled
+  m_Name: userAcceleration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -715,6 +716,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944971103}
   m_CullTransparentMesh: 1
+--- !u!114 &1944971107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944971103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d65cf770c07e240ab88b75b87416de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1978660589
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,8 +739,9 @@ GameObject:
   - component: {fileID: 1978660590}
   - component: {fileID: 1978660592}
   - component: {fileID: 1978660591}
+  - component: {fileID: 1978660593}
   m_Layer: 5
-  m_Name: RotationRate
+  m_Name: GyroGravity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,3 +809,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978660589}
   m_CullTransparentMesh: 1
+--- !u!114 &1978660593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978660589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48aa444ba9c41040a8fe9e94788e840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
