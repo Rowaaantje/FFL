@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using TMPro;
 
 public class stepcounter : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class stepcounter : MonoBehaviour
 
 
 
-        input.text = "Step counter" + intCounter;
+        input.text = "" + intCounter;
+       //TextMeshProUGUI
     }
 }
