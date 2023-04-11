@@ -38,4 +38,69 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("UI_ebi");
     }
+    public void Play1prisonersquats()
+    {
+        SceneManager.LoadScene("1prisonersquats");
+    }
+
+    public void Play2Lunges()
+    {
+        SceneManager.LoadScene("2Lunges");
+    }
+
+    public void Play3Crunches()
+    {
+        SceneManager.LoadScene("3Crunches");
+    }
+
+    public void Play4Legraises()
+    {
+        SceneManager.LoadScene("4Legraises");
+    }
+
+    public void Play5Planking()
+    {
+        SceneManager.LoadScene("5Planking");
+    }
+    public void Play6Pushups()
+    {
+        SceneManager.LoadScene("6Pushups");
+    }
+    public void Play7Sideplankdips()
+    {
+        SceneManager.LoadScene("7Sideplankdips");
+    }
+    public void Play8Sideplankdips()
+    {
+        SceneManager.LoadScene("8Sideplankdips");
+    }
+    public void Play9Situps()
+    {
+        SceneManager.LoadScene("9Situps");
+    }
+
+    public void Play10Jumpingjacks()
+    {
+        SceneManager.LoadScene("10Jumpingjacks");
+    }
+    public void Play11Floordips()
+    {
+        SceneManager.LoadScene("11Floordips");
+    }
+    public void Play12glutebridges()
+    {
+        SceneManager.LoadScene("12glutebridges");
+    }
+    public void Play13Goodmornings()
+    {
+        SceneManager.LoadScene("13Goodmornings");
+    }
+    public void Play14Toetouches()
+    {
+        SceneManager.LoadScene("14Toetouches");
+    }
+    public void Play15Tuckeddragonpresshold()
+    {
+        SceneManager.LoadScene("15Tuckeddragonpresshold");
+    }
 }
