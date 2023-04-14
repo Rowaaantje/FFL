@@ -29,6 +29,51 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI_ebi.unity
     guid: 6bc16793e6f5ef94ab8cbb9afc058780
+  - enabled: 1
+    path: Assets/Scenes/Workouts/1prisonersquats.unity
+    guid: f2ec91544813d5246861e0763e60bf9d
+  - enabled: 1
+    path: Assets/Scenes/Workouts/2Lunges.unity
+    guid: 00a9b9f5dbfee594c9d9d4674b14b971
+  - enabled: 1
+    path: Assets/Scenes/Workouts/3Crunches.unity
+    guid: 5735b1aa1c74d254b81b1cef467e739f
+  - enabled: 1
+    path: Assets/Scenes/Workouts/4Legraises.unity
+    guid: 95eae2184d1a6cf40a54536fa76ce2a0
+  - enabled: 1
+    path: Assets/Scenes/Workouts/5Planking.unity
+    guid: c1f3cbca2e06596448a5cd03c2da4a46
+  - enabled: 1
+    path: Assets/Scenes/Workouts/6Pushups.unity
+    guid: fedc66e74a75d1040850dcbeef8f1137
+  - enabled: 1
+    path: Assets/Scenes/Workouts/7Sideplankdips.unity
+    guid: 4b0ad74c4dff18f42bfa2b5a6a819846
+  - enabled: 1
+    path: Assets/Scenes/Workouts/8Sideplankdips.unity
+    guid: a9a68ed3703bf824db31b21fd412f6ba
+  - enabled: 1
+    path: Assets/Scenes/Workouts/9Situps.unity
+    guid: c214b2d55d56d5c42966b65ab88eb3ce
+  - enabled: 1
+    path: Assets/Scenes/Workouts/10Jumpingjacks.unity
+    guid: 666aeb5a453b5fa4e88f94792b0f5c75
+  - enabled: 1
+    path: Assets/Scenes/Workouts/11Floordips.unity
+    guid: c0d4f905e3e204843989d633b325aa78
+  - enabled: 1
+    path: Assets/Scenes/Workouts/12glutebridges.unity
+    guid: 274516479b5f3044890ecb287ff9caed
+  - enabled: 1
+    path: Assets/Scenes/Workouts/13Goodmornings.unity
+    guid: 48297477a6d5c304b89dec91238c7748
+  - enabled: 1
+    path: Assets/Scenes/Workouts/14Toetouches.unity
+    guid: 5c0b8ff9f49115a4297e31ad186ca6de
+  - enabled: 1
+    path: Assets/Scenes/Workouts/15Tuckeddragonpresshold.unity
+    guid: febc3c0ebfebfbe4aa7f2704745dd416
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 6ebbf83e72114cc43a8305b44e8de783, type: 2}
