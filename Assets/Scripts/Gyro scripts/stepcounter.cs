@@ -8,7 +8,7 @@ public class stepcounter : MonoBehaviour
 {
     Gyroscope m_Gyro;
     Text input;
-    int intCounter;
+    int intCounter = 0;
     float timer = 0;
     int margin = 27;
 
@@ -17,7 +17,11 @@ public class stepcounter : MonoBehaviour
         m_Gyro = Input.gyro;
         m_Gyro.enabled = true;
         input = GetComponent<Text>();
-        PlayerPrefs.GetInt("stepcounter", intCounter);
+
+        if (PlayerPrefs.HasKey("stepcounter"))
+        {
+            intCounter = PlayerPrefs.GetInt("stepcounter", 0);
+        }
     }
 
     private void Update()
@@ -25,14 +29,21 @@ public class stepcounter : MonoBehaviour
         timer += Time.deltaTime;
         if ((m_Gyro.userAcceleration.y * 100) > margin && timer >= 0.5f)
         {
-            intCounter++;
-            Debug.Log(intCounter);
+			intCounter = PlayerPrefs.GetInt("stepcounter", 0);
+			intCounter++;
             timer = 0;
             PlayerPrefs.SetInt("stepcounter", intCounter);
+            PlayerPrefs.Save();
         }
 
         input.text = "" + intCounter;
     }
+
+    void OnApplicationQuit()
+    {
+		PlayerPrefs.Save();
+	}
+
 }
 
 //public class stepcounter : MonoBehaviour
