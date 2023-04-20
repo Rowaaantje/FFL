@@ -287,7 +287,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -559,7 +559,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1456,7 +1456,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play10minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1856,7 +1856,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2075,7 +2075,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2720,7 +2720,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2889,7 +2889,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3120,7 +3120,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3253,7 +3253,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3520,7 +3520,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3741,7 +3741,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play15minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3974,7 +3974,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211663915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play5minuteworkout
+        m_MethodName: Play1prisonersquats
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
