@@ -8,6 +8,12 @@ public class MainMenu : MonoBehaviour
     public void PlayMenu()
     {
         SceneManager.LoadScene("Menu");
+
+    }
+
+    public void PlayWorkouts()
+    {
+        SceneManager.LoadScene("Workouts");
     }
 
     public void PlayStappenteller ()
@@ -102,5 +108,9 @@ public class MainMenu : MonoBehaviour
     public void Play15Tuckeddragonpresshold()
     {
         SceneManager.LoadScene("15Tuckeddragonpresshold");
+    }
+    public void PlayPrestaties()
+    {
+        SceneManager.LoadScene("Prestaties");
     }
 }
