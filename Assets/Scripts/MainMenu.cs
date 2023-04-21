@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayStappenteller ()
     {
-        SceneManager.LoadScene("Stappenteller");
+        SceneManager.LoadScene("Menu");
     }
     public void PlayWorkoutProgramma ()
     {
@@ -44,8 +44,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("UI_ebi");
     }
-    public void Play1prisonersquats()
+    public void Play1prisonersquats(int MaxWo)
     {
+        GameObject.Find("MaxWOGO").GetComponent<MaxWo>().MaxNum = MaxWo;
         SceneManager.LoadScene("1prisonersquats");
     }
 
@@ -70,7 +71,11 @@ public class MainMenu : MonoBehaviour
     }
     public void Play6Pushups()
     {
-        SceneManager.LoadScene("6Pushups");
+        if(GameObject.Find("MaxWOGO").GetComponent<MaxWo>().MaxNum == 5) {
+            SceneManager.LoadScene("Menu");
+        } else {
+            SceneManager.LoadScene("6Pushups");
+        }
     }
     public void Play7Sideplankdips()
     {
@@ -91,7 +96,11 @@ public class MainMenu : MonoBehaviour
     }
     public void Play11Floordips()
     {
-        SceneManager.LoadScene("11Floordips");
+        if(GameObject.Find("MaxWOGO").GetComponent<MaxWo>().MaxNum == 10) {
+            SceneManager.LoadScene("Menu");
+        } else {
+            SceneManager.LoadScene("11Floordips");
+        }
     }
     public void Play12glutebridges()
     {
